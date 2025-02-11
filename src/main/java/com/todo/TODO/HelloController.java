@@ -8,6 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String hello() {
+		// console.log("Hello World");
 		return "Hello World";
 	}
 }
